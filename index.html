@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Askenas Kiprono — Personal Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="site-title">Askenas Kiprono</h1>
+      <button id="nav-toggle" class="nav-toggle" aria-expanded="false">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h2 class="hero-title">Hi, I'm Askenas Kiprono.</h2>
+        <p class="hero-sub">Passionate about coding and technology. Aspiring to build innovative solutions.</p>
+        <p><a class="cta" href="#contact">Get in touch</a></p>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container">
+        <h3>About</h3>
+        <p>Hello — I'm Askenas Kiprono, 17, from Nandi. I attended AIC Cheribisi Primary and Samoei Boys High School. I'm passionate about technology and programming, and I aspire to study at MIT. I enjoy building small web projects, learning new tools, and improving my coding skills to succeed in the tech industry.</p>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h3>Projects</h3>
+        <div class="grid">
+          <article class="card">
+            <h4>Weather App</h4>
+            <p>A real-time weather dashboard built with HTML, CSS, and JavaScript using OpenWeatherMap API. Shows current conditions and forecasts for any city. <a href="#">View</a></p>
+          </article>
+          <article class="card">
+            <h4>To-Do List Manager</h4>
+            <p>A task management app with local storage persistence. Features include add, edit, delete, and mark tasks as complete. Built with vanilla JavaScript and responsive design. <a href="#">View</a></p>
+          </article>
+          <article class="card">
+            <h4>Portfolio Generator</h4>
+            <p>A Python script that auto-generates HTML portfolios from JSON data. Useful for quickly creating custom portfolio sites with different themes. <a href="#">View</a></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h3>Contact</h3>
+        <p>Reach out via email: <a href="mailto:askenaskiprono8@gmail.com">askenaskiprono8@gmail.com</a></p>
+        <p>I'm actively building my GitHub portfolio — stay tuned for project repositories coming soon!</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Askenas Kiprono</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
